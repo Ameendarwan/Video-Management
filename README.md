@@ -68,8 +68,8 @@ git clone https://github.com/Ameendarwan/Video-Management.git
     ├── utils/ - Utility functions or helper modules.
     ├── App.js - Contain Application routes.
     ├── index.js - Main application component.
-    ├── package.json - Project dependencies and scripts.
-    └── README.md - This readme file.
+  ├── package.json - Project dependencies and scripts.
+  └── README.md - This readme file.
   ```
 
 ### Technologies Used
