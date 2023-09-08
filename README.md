@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+User Dashboard and Video Management React App
+This is a React web application that allows users to manage their user profile, view their recent videos, and manage collaborators. The app uses libraries such as @mui/material for the UI kit, iconsax-react for Figma icons, and styled-components for styling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Installation
+Usage
+Features
+Folder Structure
+Technologies Used
+Demo
+Contributing
+License
+Installation
+To get started with this project, follow these steps:
 
-## Available Scripts
+Clone the repository to your local machine:
+git clone https://github.com/your-username/your-repo.git
 
-In the project directory, you can run:
+Navigate to the project directory:
+cd your-repo
 
-### `npm start`
+Install the project dependencies:
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After installing the dependencies, you can start the development server by running:
+npm start
+The application should now be running at http://localhost:3000. You can access it through your web browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+User Profile Overview
+Displays the user's name and email.
+Includes a profile picture of the user.
+Retrieves user profile information from predefined data.
+Recent Videos Section
+Implements a section to show the user's recently created videos.
+Includes a thumbnail, title, and creation date for each video.
+Enables users to click on a video entry to view a detailed video page (mockup or placeholder).
+Collaborators Management
+Creates a section where users can manage their collaborators.
+Displays a list of collaborators, including their names and roles.
+Provides options to add new collaborators via a demonstration form and remove existing ones.
+Folder Structure
+The project folder structure is organized as follows:
 
-### `npm test`
+src/ - Contains the application source code.
+components/ - React components for different sections of the app.
+data/ - Predefined data or mock API data.
+styles/ - Styled-components styles.
+App.js - Main application component.
+public/ - Public assets and HTML template.
+package.json - Project dependencies and scripts.
+README.md - This readme file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used
+React
+@mui/material
+iconsax-react
+styled-components
