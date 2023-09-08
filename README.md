@@ -59,17 +59,17 @@ git clone https://github.com/Ameendarwan/Video-Management.git
   ```
   ├── public/ - Public assets and HTML template.
   └── src/ - Contains the application source code./
-  ├── assets/ - Assets such as images, fonts, or any non-component files.
-  ├── components/ - React components for different sections of the app.
-  ├── containers/ - Page components that represent different views or routes.
-  ├── routes/ - Routing configuration and components.
-  ├── styles/ - Styled-components styles.
-  ├── theme/ - Theme configuration files.
-  ├── utils/ - Utility functions or helper modules.
-  ├── App.js - Contain Application routes.
-  ├── index.js - Main application component.
-  ├── package.json - Project dependencies and scripts.
-  └── README.md - This readme file.
+    ├── assets/ - Assets such as images, fonts, or any non-component files.
+    ├── components/ - React components for different sections of the app.
+    ├── containers/ - Page components that represent different views or routes.
+    ├── routes/ - Routing configuration and components.
+    ├── styles/ - Styled-components styles.
+    ├── theme/ - Theme configuration files.
+    ├── utils/ - Utility functions or helper modules.
+    ├── App.js - Contain Application routes.
+    ├── index.js - Main application component.
+    ├── package.json - Project dependencies and scripts.
+    └── README.md - This readme file.
   ```
 
 ### Technologies Used
