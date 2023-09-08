@@ -73,7 +73,7 @@ const AddCollaboratorForm = ({ open, setOpen }) => {
               <Typography
                 display="inline"
                 variant="subtitle2"
-                sx={{ color: "#4D33EF" }}
+                sx={{ color: "#4D33EF", cursor: "pointer" }}
               >
                 Privacy Policy
               </Typography>{" "}
@@ -83,6 +83,7 @@ const AddCollaboratorForm = ({ open, setOpen }) => {
                 variant="subtitle2"
                 sx={{
                   color: "#4D33EF",
+                  cursor: "pointer",
                 }}
               >
                 Terms of Service
@@ -98,6 +99,7 @@ const AddCollaboratorForm = ({ open, setOpen }) => {
               color: "#ffffff",
               fontSize: "1.4rem",
             }}
+            onClick={() => setOpen(false)}
           >
             Add
           </Button>

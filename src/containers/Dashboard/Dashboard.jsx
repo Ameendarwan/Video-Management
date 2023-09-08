@@ -15,7 +15,7 @@ import userImage from "assets/user.svg";
 import frame from "assets/frame.svg";
 import Sidebar from "components/Sidebar/";
 import VideoSection from "./components/VideoSection/VideoSection";
-import AddCollaboratorForm from "./components/CollaboratorsSection/AddCollaboratorForm";
+import AddCollaboratorForm from "./components/AddCollaboratorForm";
 
 const Dashboard = () => {
   const [open, setOpen] = useState(false);
