@@ -56,7 +56,7 @@ git clone https://github.com/Ameendarwan/Video-Management.git
 ### Folder Structure
 
 - The project folder structure is organized as follows:
-  .
+  ```
   ├── public/ - Public assets and HTML template.
   └── src/ - Contains the application source code./
   ├── assets/ - Assets such as images, fonts, or any non-component files.
@@ -70,6 +70,7 @@ git clone https://github.com/Ameendarwan/Video-Management.git
   ├── index.js - Main application component.
   ├── package.json - Project dependencies and scripts.
   └── README.md - This readme file.
+  ```
 
 ### Technologies Used
 
