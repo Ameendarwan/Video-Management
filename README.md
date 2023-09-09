@@ -34,13 +34,13 @@ git clone https://github.com/Ameendarwan/Video-Management.git
 
 ### Usage
 
-- After installing the dependencies, you can start the development server by running:
+After installing the dependencies, you can start the development server by running:
 
 ```sh
   npm start
 ```
 
-- The application should now be running at http://localhost:3000. You can access it through your web browser.
+The application should now be running at http://localhost:3000. You can access it through your web browser.
 
 ### Features
 
